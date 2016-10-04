@@ -36,23 +36,23 @@ act: get_contents, offset: 0, limit 10
 ```json
 [
   {
-    "cid": "1"
-    "slug": "start"
-    "title": "欢迎使用 Typecho"
-    "text": "<!--markdown-->如果您看到这篇文章,表示您的 blog 已经安装成功."
-    "commentsNum": "1"
-    "created": "1475577846"
-    "modified": "1475577846"
-  }
+    "cid": "1",
+    "slug": "start",
+    "title": "欢迎使用 Typecho",
+    "text": "<!--markdown-->如果您看到这篇文章,表示您的 blog 已经安装成功.",
+    "commentsNum": "1",
+    "created": "1475577846",
+    "modified": "1475577846",
+  },
   {
-    "cid": "2"
-    "slug": "start-page"
-    "title": "关于"
-    "text": "<!--markdown-->本页面由 Typecho 创建, 这只是个测试页面."
-    "commentsNum": "0"
-    "created": "1475577846"
+    "cid": "2",
+    "slug": "start-page",
+    "title": "关于",
+    "text": "<!--markdown-->本页面由 Typecho 创建, 这只是个测试页面.",
+    "commentsNum": "0",
+    "created": "1475577846",
     "modified": "1475577846"
-  }
+  },
   ...
 ```
 
@@ -70,7 +70,7 @@ act: get_contents, offset: 0, limit 10
 
 ```json
 {
-	"count": "12"
+	"count": "12",
 }
 ```
 
@@ -87,14 +87,15 @@ act: get_contents, offset: 0, limit 10
 ```json
 [
   {
-    "mid": "1"
-    "name": "默认分类"
-    "slug": "default"
-    "description": "只是一个默认分类"
-    "count": "9"
-    "order": "1"
+    "mid": "1",
+    "name": "默认分类",
+    "slug": "default",
+    "description": "只是一个默认分类",
+    "count": "9",
+    "order": "1",
     "parent": "0"
-  }
+  },
+  ...
 ```
 
 
@@ -112,13 +113,13 @@ act: get_contents, offset: 0, limit 10
 
 ```json
 {
-  "mid": "1"
-  "name": "默认分类"
-  "slug": "default"
-  "description": "只是一个默认分类"
-  "count": "9"
-  "order": "1"
-  "parent": "0"
+  "mid": "1",
+  "name": "默认分类",
+  "slug": "default",
+  "description": "只是一个默认分类",
+  "count": "9",
+  "order": "1",
+  "parent": "0",
 }
 ```
 
