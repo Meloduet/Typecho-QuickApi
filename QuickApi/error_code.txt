@@ -1,0 +1,6 @@
+-404: Invalid action
+-600: offset is not set
+-601: limit is not set
+-602: mid ist not set
+-603: cid ist not set
+-604: cid doesn't belong to any category
