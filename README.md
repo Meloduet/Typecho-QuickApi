@@ -56,8 +56,7 @@ act: get_contents, offset: 0, limit 10
   ...
 ```
 
-另: act=get_brief_contents是该接口的简短版本, 只返回`'cid','slug','title','commentsNum'`
-
+另: act=get_brief_contents是该接口的简短版本, 不同之处是不返回text
 ### 获取文章和页面的总数
 
 | 参数   | 值类型    | 值                  | 说明    |
